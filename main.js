@@ -25,7 +25,7 @@ function adicionaLinha(){
 
    if(atividades.includes(inputNomeAtividade.value)){
 
-    alert (`A atividade: ${inputNomeAtividade} já foi inserida!`)
+    alert (`A atividade: ${inputNomeAtividade.value} já foi inserida!`)
 } else
 {
     atividades.push(inputNomeAtividade.value);
